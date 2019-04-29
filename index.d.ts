@@ -30,7 +30,7 @@ declare const matcher: {
 	//=> ['bar']
 	```
 	*/
-	(inputs: readonly string[], patterns: readonly string[], options?: matcher.Options): string[];
+	(inputs: Readonly<string[]>, patterns: Readonly<string[]>, options?: matcher.Options): string[];
 
 	/**
 	@param input - String to match.
